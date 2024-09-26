@@ -15,7 +15,7 @@ An Interpreter of Kotlin language is defined by:
 2. Insert a number indicating the test case you want to interpret (from 0 to 6)
 
 **Via Terminal (write the following commands):**
-1. cd <path-to-project-directory>
+1. `cd path-to-project-directory`
 2. python main.py
 3. Insert a number indicating the test case you want to interpret (from 0 to 6)
 
