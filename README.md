@@ -26,11 +26,13 @@ N.B.: Test cases 3, 4 and 5 present errors
 - Linux/MacOS:
 
 `pip install pyinstaller`
+
 `pyinstaller --onefile --hidden-import=Interpreter --hidden-import=Parser --hidden-import=Lexer --add-data "Tests/*:Tests" -n Interpreter main.py`
 
 - Windows:
 
 `pip install pyinstaller`
+
 `pyinstaller --onefile --hidden-import=Interpreter --hidden-import=Parser --hidden-import=Lexer --add-data "Tests/*;Tests" -n Interpreter main.py`
 
 ---
